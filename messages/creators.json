@@ -1,0 +1,209 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [{
+        "type": "text",
+        "text": "Creators",
+        "weight": "bold",
+        "size": "md",
+        "align": "center",
+        "color": "#ffffff"
+      }]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [{
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [{
+              "type": "box",
+              "layout": "vertical",
+              "contents": [{
+                "type": "image",
+                "aspectMode": "cover",
+                "size": "full",
+                "url": "https://cupmenbot.s3-ap-northeast-1.amazonaws.com/tomohironozaki.jpg"
+              }],
+              "cornerRadius": "50px",
+              "width": "72px",
+              "height": "72px"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [{
+                  "type": "text",
+                  "contents": [{
+                    "type": "span",
+                    "text": "Tomohiro Nozaki",
+                    "weight": "bold",
+                    "color": "#525B66"
+                  }],
+                  "size": "sm",
+                  "wrap": true
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [{
+                      "type": "text",
+                      "text": "Twitter: @nztm_tw",
+                      "size": "sm",
+                      "color": "#616b87"
+                    },
+                    {
+                      "type": "text",
+                      "text": "Qiita: @nztm",
+                      "size": "sm",
+                      "color": "#616b87"
+                    }
+                  ],
+                  "spacing": "sm",
+                  "margin": "md"
+                }
+              ]
+            }
+          ],
+          "spacing": "xl",
+          "paddingAll": "20px"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [{
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [{
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [{
+                    "type": "image",
+                    "url": "https://i.imgur.com/bbflnq0.jpg",
+                    "aspectMode": "cover",
+                    "size": "full"
+                  }],
+                  "cornerRadius": "50px",
+                  "width": "72px",
+                  "height": "72px"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [{
+                      "type": "text",
+                      "contents": [{
+                        "type": "span",
+                        "text": "shinbunbun",
+                        "weight": "bold",
+                        "color": "#525B66"
+                      }],
+                      "size": "sm",
+                      "wrap": true
+                    },
+                    {
+                      "type": "box",
+                      "layout": "vertical",
+                      "contents": [{
+                          "type": "text",
+                          "text": "Twitter: @shinbunbun_",
+                          "size": "sm",
+                          "color": "#616b87"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Qiita: @shinbunbun_",
+                          "size": "sm",
+                          "color": "#616b87"
+                        }
+                      ],
+                      "spacing": "sm",
+                      "margin": "md"
+                    }
+                  ]
+                }
+              ],
+              "spacing": "xl",
+              "paddingAll": "20px"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [{
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [{
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [{
+                      "type": "image",
+                      "url": "https://i.imgur.com/XgfuVZF.jpg",
+                      "aspectMode": "cover",
+                      "size": "full"
+                    }],
+                    "cornerRadius": "50px",
+                    "width": "72px",
+                    "height": "72px"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [{
+                        "type": "text",
+                        "contents": [{
+                          "type": "span",
+                          "text": "Yusei Ito",
+                          "weight": "bold",
+                          "color": "#525B66"
+                        }],
+                        "size": "sm",
+                        "wrap": true
+                      },
+                      {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [{
+                            "type": "text",
+                            "text": "Twitter: @ItyuJ",
+                            "size": "sm",
+                            "color": "#616b87"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Qiita: @YuseiIto",
+                            "size": "sm",
+                            "color": "#616b87"
+                          }
+                        ],
+                        "spacing": "sm",
+                        "margin": "md"
+                      }
+                    ]
+                  }
+                ],
+                "spacing": "xl",
+                "paddingAll": "20px"
+              }],
+              "paddingAll": "0px"
+            }
+          ],
+          "paddingAll": "0px"
+        }
+      ],
+      "paddingAll": "0px"
+    },
+    "styles": {
+      "header": {
+        "backgroundColor": "#3B5F8A"
+      },
+      "body": {
+        "backgroundColor": "#E6F2FF"
+      }
+    }
+  }
+}

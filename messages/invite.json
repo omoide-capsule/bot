@@ -1,0 +1,43 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [{
+          "type": "box",
+          "layout": "vertical",
+          "contents": [{
+            "type": "image",
+            "url": "https://qr-official.line.me/sid/M/039nbkbr.png",
+            "size": "xxl"
+          }],
+          "paddingAll": "20px"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [{
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "友だちに送信する",
+              "uri": "https://line.me/R/nv/recommendOA/@039nbkbr"
+            },
+            "style": "secondary",
+            "color": "#E6F2FF",
+            "height": "sm"
+          }]
+        }
+      ],
+      "backgroundColor": "#3B5F8A"
+    },
+    "styles": {
+      "header": {
+        "backgroundColor": "#3B5F8A"
+      }
+    }
+  }
+}

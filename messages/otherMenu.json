@@ -1,0 +1,52 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [{
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "使い方をみる",
+            "data": "howtouse"
+          },
+          "style": "secondary",
+          "color": "#E6F2FF",
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "data": "invite",
+            "label": "Botを友だちに教える"
+          },
+          "style": "secondary",
+          "color": "#E6F2FF",
+          "margin": "md",
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "data": "creators",
+            "label": "クリエイター情報"
+          },
+          "style": "secondary",
+          "color": "#E6F2FF",
+          "margin": "md",
+          "height": "sm"
+        }
+      ]
+    },
+    "styles": {
+      "body": {
+        "backgroundColor": "#3B5F8A"
+      }
+    }
+  }
+}

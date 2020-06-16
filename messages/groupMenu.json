@@ -91,7 +91,7 @@
           "margin": "lg",
           "action": {
             "type": "postback",
-            "data": "pickTime"
+            "data": "other"
           },
           "paddingAll": "5px"
         }
