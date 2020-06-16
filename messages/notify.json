@@ -1,0 +1,68 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [{
+        "type": "text",
+        "text": "Googleの本社に行った日",
+        "color": "#ffffff",
+        "size": "md",
+        "wrap": false
+      }]
+    },
+    "hero": {
+      "type": "image",
+      "url": "https://i.imgur.com/8UUeIKp.png",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [{
+          "type": "text",
+          "text": "シリコンバレーのマウンテンビューにあるGoogle本社に行った。キャンパス内には恐竜の化石の模型が展示されていたり、カラフルな自転車が置いてあったり、とても自由な空間だった。将来、こんなオフィスで働けたらいいなと思った。また戻ってこれるように頑張りたい。",
+          "wrap": true,
+          "color": "#525b66"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [{
+              "type": "separator",
+              "color": "#bababa"
+            },
+            {
+              "type": "text",
+              "text": "2019年3月19日に作成",
+              "wrap": true,
+              "weight": "regular",
+              "align": "end",
+              "margin": "md",
+              "color": "#bababa",
+              "offsetEnd": "2px"
+            }
+          ],
+          "margin": "xl"
+        }
+      ],
+      "paddingAll": "16px"
+    },
+    "styles": {
+      "header": {
+        "backgroundColor": "#3b5f8a"
+      },
+      "body": {
+        "backgroundColor": "#e6f2ff"
+      },
+      "footer": {
+        "backgroundColor": "#f7fbff"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [{
+        "type": "text",
+        "color": "#ffffff",
+        "wrap": false,
+        "text": "思い出カプセル"
+      }]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [{
+          "type": "text",
+          "text": "〇〇さんがあなたと思い出「ここに思い出のタイトル」を共有したいと言っています。共有を承認すると数年後にこの思い出を受信できます。",
+          "wrap": true,
+          "color": "#525b66"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "共有を承認する",
+            "uri": "http://linecorp.com/"
+          },
+          "style": "primary",
+          "color": "#3b5f8a",
+          "margin": "xl"
+        }
+      ]
+    },
+    "styles": {
+      "header": {
+        "backgroundColor": "#3b5f8a"
+      },
+      "body": {
+        "backgroundColor": "#e6f2ff"
+      },
+      "footer": {
+        "backgroundColor": "#f7fbff"
+      }
+    }
+  }
+}

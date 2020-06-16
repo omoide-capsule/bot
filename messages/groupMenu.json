@@ -1,0 +1,108 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [{
+          "type": "box",
+          "layout": "vertical",
+          "contents": [{
+              "type": "image",
+              "url": "https://i.imgur.com/GVMJr6V.png",
+              "size": "xxs",
+              "offsetTop": "8px"
+            },
+            {
+              "type": "text",
+              "text": "思い出を記録",
+              "weight": "bold",
+              "align": "center",
+              "size": "xxs",
+              "color": "#3B5F8A",
+              "offsetTop": "14px"
+            }
+          ],
+          "backgroundColor": "#ffffff",
+          "width": "80px",
+          "height": "80px",
+          "cornerRadius": "10px",
+          "action": {
+            "type": "postback",
+            "data": "180"
+          },
+          "paddingAll": "5px"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [{
+              "type": "image",
+              "url": "https://i.imgur.com/S7GaScz.png",
+              "size": "xxs",
+              "offsetTop": "8px"
+            },
+            {
+              "type": "text",
+              "text": "一覧を見る",
+              "weight": "bold",
+              "align": "center",
+              "size": "xxs",
+              "color": "#3B5F8A",
+              "offsetTop": "14px"
+            }
+          ],
+          "backgroundColor": "#ffffff",
+          "width": "80px",
+          "height": "80px",
+          "cornerRadius": "10px",
+          "margin": "lg",
+          "action": {
+            "type": "postback",
+            "data": "300"
+          },
+          "paddingAll": "5px"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [{
+              "type": "image",
+              "url": "https://i.imgur.com/9jzrHVQ.png",
+              "size": "xxs",
+              "offsetTop": "10px"
+            },
+            {
+              "type": "text",
+              "text": "その他",
+              "weight": "bold",
+              "align": "center",
+              "size": "xxs",
+              "color": "#3B5F8A",
+              "offsetTop": "14px"
+            }
+          ],
+          "backgroundColor": "#ffffff",
+          "width": "80px",
+          "height": "80px",
+          "cornerRadius": "10px",
+          "margin": "lg",
+          "action": {
+            "type": "postback",
+            "data": "pickTime"
+          },
+          "paddingAll": "5px"
+        }
+      ],
+      "paddingStart": "19px",
+      "backgroundColor": "#3B5F8A"
+    },
+    "styles": {
+      "body": {
+        "backgroundColor": "#FFC71F"
+      }
+    }
+  }
+}
